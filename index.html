@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Simon Brizuela - Full Stack Developer | React, Java, Node.js | Portfolio">
+    <meta name="keywords" content="developer, full stack, java, react, node.js, portfolio">
+    <meta name="author" content="Simon Brizuela">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Simon Brizuela - Full Stack Developer">
+    <meta property="og:description" content="Desarrollador Full Stack especializado en React, Java y Node.js">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="cv/assets/images/micara.jpg">
+    
+    <title>Simon Brizuela - Full Stack Developer</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/api-demos.css">
+    
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-G2YK9FRF1F"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-G2YK9FRF1F');
+    </script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <div class="nav-logo">SB</div>
+            <button class="hamburger" id="hamburger" aria-label="Menú">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#inicio" class="nav-link">Inicio</a></li>
+                <li><a href="#sobre-mi" class="nav-link">Sobre mí</a></li>
+                <li><a href="#habilidades" class="nav-link">Habilidades</a></li>
+                <li><a href="#proyectos" class="nav-link">Proyectos</a></li>
+                <li><a href="#github" class="nav-link">GitHub</a></li>
+                <li><a href="#apis" class="nav-link">APIs</a></li>
+                <li><a href="#certificados" class="nav-link">Certificados</a></li>
+                <li><a href="#contacto" class="nav-link">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-name">Simon Brizuela</h1>
+            <p class="hero-subtitle">Full Stack Developer</p>
+            <div class="hero-stats">
+                <div class="stat-block">
+                    <div class="stat-number">15+</div>
+                    <div class="stat-label">Proyectos</div>
+                </div>
+                <div class="stat-block">
+                    <div class="stat-number">3</div>
+                    <div class="stat-label">Años</div>
+                </div>
+                <div class="stat-block">
+                    <div class="stat-number">12</div>
+                    <div class="stat-label">Certificados</div>
+                </div>
+            </div>
+            <div class="hero-buttons">
+                <a href="#contacto" class="btn btn-primary">Contactame</a>
+                <a href="#proyectos" class="btn btn-secondary">Ver Proyectos</a>
+                <a href="https://github.com/simonbrizuela" target="_blank" class="btn btn-tertiary">GitHub</a>
+            </div>
+            <div class="location-badge">
+                📍 Córdoba, Argentina &bull; 20 años &bull; Programando desde 2022
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="sobre-mi" class="about">
+        <div class="container">
+            <h2 class="section-title">Sobre Mí</h2>
+            <div class="about-container">
+                <div class="about-image">
+                    <img src="cv/assets/images/micara.jpg" alt="Simon Brizuela">
+                </div>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>Comencé a programar en 2022 automatizando tareas repetitivas. Mi primer proyecto serio fue un sistema POS en Java para un negocio familiar, lo que marcó el inicio de una pasión por crear soluciones de software.</p>
+                        <br>
+                        <p>Actualmente desarrollo sistemas web, aplicaciones de escritorio y automatizaciones con diferentes tecnologías. Me especializo en React/TypeScript para frontend y Node.js/Java para backend.</p>
+                        <br>
+                        <p>Estoy mejorando mis habilidades en React y TypeScript, trabajando como freelancer y buscando oportunidades profesionales para crecer como desarrollador.</p>
+                    </div>
+                    <div class="status-box">
+                        <div class="status-label">Estado actual</div>
+                        <div class="status-text">🟢 Disponible para oportunidades laborales</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Soft Skills Section -->
+    <section class="soft-skills">
+        <div class="container">
+            <h2 class="section-title">Habilidades Blandas</h2>
+            <div class="skills-grid">
+                <div class="skill-card animate-in">
+                    <div class="skill-icon">🧠</div>
+                    <h3>Resolución de Problemas</h3>
+                    <p>Capacidad para analizar y resolver desafíos complejos de manera eficiente</p>
+                </div>
+                <div class="skill-card animate-in">
+                    <div class="skill-icon">📚</div>
+                    <h3>Aprendizaje Continuo</h3>
+                    <p>Siempre actualizado con las últimas tecnologías y mejores prácticas</p>
+                </div>
+                <div class="skill-card animate-in">
+                    <div class="skill-icon">🔄</div>
+                    <h3>Adaptabilidad</h3>
+                    <p>Flexible ante cambios y nuevos desafíos en diferentes contextos</p>
+                </div>
+                <div class="skill-card animate-in">
+                    <div class="skill-icon">💭</div>
+                    <h3>Pensamiento Crítico</h3>
+                    <p>Análisis profundo para tomar decisiones fundamentadas y bien estructuradas</p>
+                </div>
+                <div class="skill-card animate-in">
+                    <div class="skill-icon">👥</div>
+                    <h3>Trabajo en Equipo</h3>
+                    <p>Colaboración efectiva y comunicación clara con colegas y clientes</p>
+                </div>
+                <div class="skill-card animate-in">
+                    <div class="skill-icon">✔️</div>
+                    <h3>Atención al Detalle</h3>
+                    <p>Cuidado meticuloso en cada línea de código y detalles de implementación</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technical Skills Section -->
+    <section id="habilidades" class="technical-skills">
+        <div class="container">
+            <h2 class="section-title">Habilidades Técnicas</h2>
+            <div class="skills-list" data-level="0">
+                <div data-level="95">
+                    <div class="skill-item">
+                        <span class="skill-name">JavaScript</span>
+                        <span class="skill-percentage">95%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-fill" style="--width: 95%"></div>
+                    </div>
+                </div>
+                <div data-level="90">
+                    <div class="skill-item">
+                        <span class="skill-name">Java</span>
+                        <span class="skill-percentage">90%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-fill" style="--width: 90%"></div>
+                    </div>
+                </div>
+                <div data-level="85">
+                    <div class="skill-item">
+                        <span class="skill-name">Python</span>
+                        <span class="skill-percentage">85%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-fill" style="--width: 85%"></div>
+                    </div>
+                </div>
+                <div data-level="88">
+                    <div class="skill-item">
+                        <span class="skill-name">SQL</span>
+                        <span class="skill-percentage">88%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-fill" style="--width: 88%"></div>
+                    </div>
+                </div>
+                <div data-level="90">
+                    <div class="skill-item">
+                        <span class="skill-name">React</span>
+                        <span class="skill-percentage">90%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-fill" style="--width: 90%"></div>
+                    </div>
+                </div>
+                <div data-level="85">
+                    <div class="skill-item">
+                        <span class="skill-name">Node.js</span>
+                        <span class="skill-percentage">85%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-fill" style="--width: 85%"></div>
+                    </div>
+                </div>
+                <div data-level="78">
+                    <div class="skill-item">
+                        <span class="skill-name">Android (Kotlin/Java)</span>
+                        <span class="skill-percentage">78%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-fill" style="--width: 78%"></div>
+                    </div>
+                </div>
+                <div data-level="88">
+                    <div class="skill-item">
+                        <span class="skill-name">Bases de Datos (SQL/NoSQL)</span>
+                        <span class="skill-percentage">88%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-fill" style="--width: 88%"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tools-row">
+                <span class="tool-badge">Git &amp; GitHub</span>
+                <span class="tool-badge">Spring Boot</span>
+                <span class="tool-badge">Express</span>
+                <span class="tool-badge">MySQL</span>
+                <span class="tool-badge">PostgreSQL</span>
+                <span class="tool-badge">MongoDB</span>
+                <span class="tool-badge">Firebase</span>
+                <span class="tool-badge">REST APIs</span>
+                <span class="tool-badge">Docker</span>
+                <span class="tool-badge">Android Studio</span>
+                <span class="tool-badge">Kotlin</span>
+                <span class="tool-badge">Room DB</span>
+                <span class="tool-badge">Agile</span>
+                <span class="tool-badge">TypeScript</span>
+                <span class="tool-badge">Tailwind CSS</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="proyectos" class="projects">
+        <div class="container">
+            <h2 class="section-title">Proyectos Destacados</h2>
+            <div class="projects-grid">
+                <div class="project-card animate-in">
+                    <img class="project-image" src="cv/projects/pos-system/images/dashboard.png" alt="Sistema POS">
+                    <div class="project-content">
+                        <h3 class="project-title">Sistema POS</h3>
+                        <p class="project-description">Sistema de punto de venta desarrollado en Java con Swing para interfaz gráfica y MySQL para persistencia de datos.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Java</span>
+                            <span class="project-tag">MySQL</span>
+                            <span class="project-tag">Swing</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card animate-in">
+                    <img class="project-image" src="cv/projects/negocio-web/images/Panel de administracion de Gestion de Pedidos, Promociones, gestion de productos y configuraciones.png" alt="E-commerce">
+                    <div class="project-content">
+                        <h3 class="project-title">Negocio Web E-commerce</h3>
+                        <p class="project-description">Plataforma de e-commerce con React en frontend, Node.js en backend, integración con WhatsApp API y MercadoPago.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">React</span>
+                            <span class="project-tag">Node.js</span>
+                            <span class="project-tag">MySQL</span>
+                            <span class="project-tag">WhatsApp API</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card animate-in">
+                    <img class="project-image" src="cv/projects/cadeteria/images/WhatSaap integrado para el uso de cadeteria en grupos .png" alt="Sistema de Cadetería">
+                    <div class="project-content">
+                        <h3 class="project-title">Sistema de Cadetería</h3>
+                        <p class="project-description">Aplicación web para gestión de entregas con integración de Google Maps API para rastreo de rutas y notificaciones vía WhatsApp.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">JavaScript</span>
+                            <span class="project-tag">Google Maps API</span>
+                            <span class="project-tag">MySQL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card animate-in">
+                    <img class="project-image" src="cv/projects/bot-encuestas-gmail/images/Comando Status para ver si el bot esta en funcionamiento .png" alt="Bot Encuestas Gmail">
+                    <div class="project-content">
+                        <h3 class="project-title">Bot de Encuestas Gmail</h3>
+                        <p class="project-description">Bot automatizado en Python que gestiona encuestas y envíos mediante Gmail API, con Selenium para automatización web.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Python</span>
+                            <span class="project-tag">Gmail API</span>
+                            <span class="project-tag">Selenium</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- GitHub Projects Section -->
+    <section id="github" class="github-section">
+        <div class="container">
+            <h2 class="section-title">Proyectos en GitHub</h2>
+            <div class="github-grid">
+                <a href="https://github.com/simonbrizuela/task-management-api" target="_blank" class="github-card animate-in">
+                    <span class="repo-badge">Node.js</span>
+                    <h3 class="repo-title">Task Management API</h3>
+                    <p class="repo-description">API REST para gestión de tareas con autenticación JWT, documentación Swagger y base de datos MySQL.</p>
+                    <div class="repo-chips">
+                        <span class="repo-chip">Express</span>
+                        <span class="repo-chip">MySQL</span>
+                        <span class="repo-chip">JWT</span>
+                        <span class="repo-chip">Swagger</span>
+                    </div>
+                    <div class="github-link">Ver en GitHub →</div>
+                </a>
+
+                <a href="https://github.com/simonbrizuela/employee-management-spring" target="_blank" class="github-card animate-in">
+                    <span class="repo-badge">Java</span>
+                    <h3 class="repo-title">Employee Management System</h3>
+                    <p class="repo-description">Sistema de gestión de empleados construido con Spring Boot, seguridad Spring y base de datos MySQL relacional.</p>
+                    <div class="repo-chips">
+                        <span class="repo-chip">Spring Boot</span>
+                        <span class="repo-chip">MySQL</span>
+                        <span class="repo-chip">Spring Security</span>
+                    </div>
+                    <div class="github-link">Ver en GitHub →</div>
+                </a>
+
+                <a href="https://github.com/simonbrizuela/analytics-dashboard-react" target="_blank" class="github-card animate-in">
+                    <span class="repo-badge">React</span>
+                    <h3 class="repo-title">Analytics Dashboard</h3>
+                    <p class="repo-description">Dashboard de análisis interactivo construido con React y TypeScript, con visualizaciones usando Chart.js y estilos Tailwind.</p>
+                    <div class="repo-chips">
+                        <span class="repo-chip">TypeScript</span>
+                        <span class="repo-chip">Chart.js</span>
+                        <span class="repo-chip">Tailwind</span>
+                    </div>
+                    <div class="github-link">Ver en GitHub →</div>
+                </a>
+
+                <a href="https://github.com/simonbrizuela/data-processor-cli-python" target="_blank" class="github-card animate-in">
+                    <span class="repo-badge">Python</span>
+                    <h3 class="repo-title">Data Processor CLI</h3>
+                    <p class="repo-description">Herramienta CLI en Python para procesar datos con Pandas, interfaz intuitiva con Click y visualizaciones con Matplotlib.</p>
+                    <div class="repo-chips">
+                        <span class="repo-chip">Pandas</span>
+                        <span class="repo-chip">Click</span>
+                        <span class="repo-chip">Matplotlib</span>
+                    </div>
+                    <div class="github-link">Ver en GitHub →</div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- APIs Section -->
+    <section id="apis" class="apis">
+        <div class="container">
+            <h2 class="section-title">Demos de APIs</h2>
+            <p class="section-subtitle">Integraciones reales funcionando — hacé click para probarlas</p>
+            <div class="apis-grid">
+                <div class="api-card animate-in" onclick="openApiDemo('gemini')" style="cursor:pointer">
+                    <div class="api-icon">🤖</div>
+                    <h3 class="api-title">Asistente IA</h3>
+                    <p class="api-description">Chat con IA sobre mi portfolio. Powered by Nexus AI (Llama 3.3 70B) via Netlify Function segura.</p>
+                </div>
+                <div class="api-card animate-in" onclick="openApiDemo('translate')" style="cursor:pointer">
+                    <div class="api-icon">🌐</div>
+                    <h3 class="api-title">Traductor</h3>
+                    <p class="api-description">Traducción en tiempo real entre múltiples idiomas usando MyMemory Translation API.</p>
+                </div>
+                <div class="api-card animate-in" onclick="openApiDemo('weather')" style="cursor:pointer">
+                    <div class="api-icon">🌤️</div>
+                    <h3 class="api-title">Clima</h3>
+                    <p class="api-description">Información meteorológica de cualquier ciudad del mundo con OpenWeatherMap API.</p>
+                </div>
+                <div class="api-card animate-in" onclick="openApiDemo('currency')" style="cursor:pointer">
+                    <div class="api-icon">💱</div>
+                    <h3 class="api-title">Conversor de Monedas</h3>
+                    <p class="api-description">Conversión entre divisas en tiempo real con tasas actualizadas via ExchangeRate API.</p>
+                </div>
+                <div class="api-card animate-in" onclick="openApiDemo('random-images')" style="cursor:pointer">
+                    <div class="api-icon">🐾</div>
+                    <h3 class="api-title">Imágenes Aleatorias</h3>
+                    <p class="api-description">Imágenes random de perros y gatos usando Dog CEO API y The Cat API.</p>
+                </div>
+                <div class="api-card animate-in" onclick="openApiDemo('maps')" style="cursor:pointer">
+                    <div class="api-icon">🗺️</div>
+                    <h3 class="api-title">Mapas</h3>
+                    <p class="api-description">Búsqueda de ubicaciones con mapa interactivo usando OpenStreetMap + Leaflet.js.</p>
+                </div>
+                <div class="api-card animate-in" onclick="openApiDemo('payment')" style="cursor:pointer">
+                    <div class="api-icon">💳</div>
+                    <h3 class="api-title">Pasarela de Pagos</h3>
+                    <p class="api-description">Simulador de pagos con Stripe, PayPal y MercadoPago. Demo visual completo.</p>
+                </div>
+                <div class="api-card animate-in" onclick="openApiDemo('openai')" style="cursor:pointer">
+                    <div class="api-icon">💡</div>
+                    <h3 class="api-title">Generador de Contenido</h3>
+                    <p class="api-description">Integración con OpenAI GPT-4 para generación de texto e ideas creativas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section id="certificados" class="certificates">
+        <div class="container">
+            <h2 class="section-title">Certificados</h2>
+            <div class="certs-grid">
+                <div class="cert-card animate-in">
+                    <img class="cert-image" src="cv/assets/images/certificates/Frontend Developer (React).png" alt="Frontend Developer (React)">
+                    <div class="cert-label">Frontend Developer (React)</div>
+                </div>
+                <div class="cert-card animate-in">
+                    <img class="cert-image" src="cv/assets/images/certificates/Java SE 17 Dev.png" alt="Java SE 17 Developer">
+                    <div class="cert-label">Java SE 17 Developer</div>
+                </div>
+                <div class="cert-card animate-in">
+                    <img class="cert-image" src="cv/assets/images/certificates/Javas SE 17 Dev Ultima Unidad.png" alt="Java SE 17 Última Unidad">
+                    <div class="cert-label">Java SE 17 Última Unidad</div>
+                </div>
+                <div class="cert-card animate-in">
+                    <img class="cert-image" src="cv/assets/images/certificates/JavaScrip.png" alt="JavaScript Fundamentals">
+                    <div class="cert-label">JavaScript Fundamentals</div>
+                </div>
+                <div class="cert-card animate-in">
+                    <img class="cert-image" src="cv/assets/images/certificates/Phyton.png" alt="Python Programming">
+                    <div class="cert-label">Python Programming</div>
+                </div>
+                <div class="cert-card animate-in">
+                    <img class="cert-image" src="cv/assets/images/certificates/Rest Api.png" alt="REST API Development">
+                    <div class="cert-label">REST API Development</div>
+                </div>
+                <div class="cert-card animate-in">
+                    <img class="cert-image" src="cv/assets/images/certificates/SoftWare Engineering.png" alt="Software Engineering">
+                    <div class="cert-label">Software Engineering</div>
+                </div>
+                <div class="cert-card animate-in">
+                    <img class="cert-image" src="cv/assets/images/certificates/Software Enginer.png" alt="Software Engineer">
+                    <div class="cert-label">Software Engineer</div>
+                </div>
+                <div class="cert-card animate-in">
+                    <img class="cert-image" src="cv/assets/images/certificates/SQL Intermedio.png" alt="SQL Intermedio">
+                    <div class="cert-label">SQL Intermedio</div>
+                </div>
+                <div class="cert-card animate-in">
+                    <img class="cert-image" src="cv/assets/images/certificates/Sql Advanced.png" alt="SQL Advanced">
+                    <div class="cert-label">SQL Advanced</div>
+                </div>
+                <div class="cert-card animate-in">
+                    <img class="cert-image" src="cv/assets/images/certificates/sql.png" alt="SQL Fundamentals">
+                    <div class="cert-label">SQL Fundamentals</div>
+                </div>
+                <div class="cert-card animate-in">
+                    <img class="cert-image" src="cv/assets/images/certificates/Java 2.jpg" alt="Java Programming">
+                    <div class="cert-label">Java Programming</div>
+                </div>
+                <div class="cert-card animate-in">
+                    <img class="cert-image" src="cv/assets/images/certificates/SoftWare Enginee.png" alt="Software Engineering">
+                    <div class="cert-label">Software Engineering</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificate Modal -->
+    <div class="modal" id="cert-modal">
+        <div class="modal-content">
+            <button class="modal-close" aria-label="Cerrar">✕</button>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <section id="contacto" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contacto</h2>
+            <p class="section-subtitle">Buscando mi primera oportunidad profesional como desarrollador. Estoy disponible para discutir proyectos y oportunidades.</p>
+            <div class="contact-info">
+                <a href="mailto:simonbrizuela08@gmail.com" class="contact-card animate-in">
+                    <div class="contact-icon">📧</div>
+                    <div class="contact-label">Email</div>
+                    <div class="contact-value">simonbrizuela08@gmail.com</div>
+                </a>
+                <a href="https://wa.me/543512106906" target="_blank" class="contact-card animate-in">
+                    <div class="contact-icon">💬</div>
+                    <div class="contact-label">WhatsApp</div>
+                    <div class="contact-value">+54 351 210-6906</div>
+                </a>
+                <a href="https://github.com/simonbrizuela" target="_blank" class="contact-card animate-in">
+                    <div class="contact-icon">👨‍💻</div>
+                    <div class="contact-label">GitHub</div>
+                    <div class="contact-value">github.com/simonbrizuela</div>
+                </a>
+                <a href="https://linkedin.com/in/simonbrizuela" target="_blank" class="contact-card animate-in">
+                    <div class="contact-icon">💼</div>
+                    <div class="contact-label">LinkedIn</div>
+                    <div class="contact-value">Simon Brizuela</div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-name">Simon Brizuela</div>
+            <div class="footer-copyright">&copy; 2026 Full Stack Developer &mdash; Dark Theme with Glassmorphism</div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+    <script src="js/api-integrations.js"></script>
+</body>
+</html>
